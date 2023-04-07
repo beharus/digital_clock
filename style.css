@@ -1,0 +1,78 @@
+/* POPPINS FONT_STYLE */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background: url(./imgs/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+/* CONTAINER */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80vh;
+}
+.container .time .clock {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 160px;
+  line-height: 100%;
+  text-align: center;
+  font-feature-settings: "ss02" on;
+}
+.container .time .am_pm {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 44px;
+  line-height: 100%;
+  text-align: center;
+  font-feature-settings: "ss02" on;
+}
+.container .date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  font-feature-settings: "ss02" on;
+}
+
+/* About */
+.autor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.autor .name .main {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  font-feature-settings: "ss02" on;
+}
+.autor .name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  font-feature-settings: "ss02" on;
+}
